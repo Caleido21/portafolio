@@ -1,0 +1,80 @@
+:root
+{
+    --light: 300;
+    --medium: 500;
+    --bold: 700;
+    --extrabold: 800;
+    --font-black: 900;
+    --small: 14px;
+    --medium: 16px;
+    --large: 18px;
+    --xl: 20px;
+    --xxl: 22px;
+    --xxxl: 24px;
+}
+
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 1px solid red;
+}
+html
+{
+    font-family: 'Poppins', sans-serif;
+}
+.navbar
+{
+    display: flex;
+    width: 100vw;
+    height: 60px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav
+{
+    display: flex;
+    width: 50%;
+    justify-content: space-evenly;
+}
+
+
+a
+{
+    text-decoration: none;
+    color: black;
+}
+
+.section a
+{
+    font-size: var(--xxl);
+    font-weight: var(--bold);
+    text-decoration: underline;
+}
+.section a:hover
+{
+    font-size: var(--xxxl);
+    font-weight: var(--bold);
+    text-decoration: underline;
+}
+.web
+{
+    display: flex;
+    justify-content: space-evenly
+}
+
+.card
+{
+    margin-left: 16px;
+    margin-right: 16px;
+    border: black solid 1px;
+    
+}
+
+.card img
+{
+    border: solid 1px black;
+    width: 100%;
+}
